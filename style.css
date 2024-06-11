@@ -74,10 +74,11 @@ body {
   color: #033290;
   margin-bottom: 30px;
   transition: transform 0.2s ease-out;
+  cursor: pointer;
 }
 
 #add_task_btn:active {
-    transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 ul {
@@ -122,10 +123,11 @@ li {
   font-size: 11px;
   margin-right: 10px;
   transition: transform 0.2s ease-out;
+  cursor: pointer;
 }
 
 #del_itm:active {
-    transform: translateY(-3px);
+  transform: translateY(-3px);
 }
 
 .tenor-gif-embed {
